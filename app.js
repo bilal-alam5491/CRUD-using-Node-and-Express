@@ -73,7 +73,7 @@ app.post("/submit", (req, res) => {
   //     }
   //   });
 
-  body.id = id;
+  
   dataArray.push(body);
   res.status(200).json({
     message: "Successfully Submitted the data",
